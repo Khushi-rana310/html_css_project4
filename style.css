@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 27px;
+    margin: 10px;
+    background-color: #244855
+;
+
+}
+
+.selfContainer {
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-top: 0.5%;
+}
+
+.selfContainer .info h1 {
+    font-size: 60px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 31%;
+}
+
+.pic img {
+    height: 69vh;
+    width: 39wh;
+    border-radius: 32px;
+}
+
+.infoContainer {
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 33px;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.about h1 {
+    font-size: 60px;
+    padding: 1%;
+    margin-bottom: 22px;
+    color: #E64833;
+}
+
+.about p {
+    font-size: 20px;
+    color: white;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 8px;
+    border-radius: 7px;
+    color: antiquewhite;
+    background-color: #E64833;
+    font-weight: bold;
+    margin: 20px 25px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: #E64833;
+}
+
+.selfContainer .info h2 {
+    color: #E64833;
+}
+
+.cont {
+    background-color: #244855;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform h1 {
+    font-size: 50px;
+    color: #E64833;
+    font-style: oblique;
+    
+}
+
+.mb-3 {
+    margin: 12px;
+    font-size: 30px;
+    color: white;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    font-size: 33px;
+}
+
+.icons:hover {
+    color: #E64833;
+}
